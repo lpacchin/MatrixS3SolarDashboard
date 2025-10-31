@@ -19,8 +19,8 @@ SMALL_FONT = "/fonts/5x8.bdf"              # Pagine 2 e 3
 # -----------------------------
 # WiFi credentials
 # -----------------------------
-WIFI_SSID     = "lupa"
-WIFI_PASSWORD = "780130bmw."
+WIFI_SSID     = "***"
+WIFI_PASSWORD = "***."
 
 # -----------------------------
 # Funzioni WiFi con log
