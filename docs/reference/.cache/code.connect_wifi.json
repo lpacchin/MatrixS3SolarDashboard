@@ -1,0 +1,11 @@
+{
+  "body_hash": "ac91d1e54da3c1e7",
+  "llm": {
+    "purpose": "Tenta di connettersi alla rete WiFi specificata, ritentando per un massimo di 20 secondi. Stampa stato su stdout.",
+    "input_shape": "Nessun parametro.",
+    "output_shape": "True se la connessione riesce entro il timeout; False in caso di timeout o errori persistenti.",
+    "gotcha": "Dipende da variabili globali WIFI_SSID e WIFI_PASSWORD; blocca l’esecuzione fino a 20 s; assume l’esistenza dell’oggetto wifi.radio e che possa essere abilitato.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:28:17.590302+00:00"
+}

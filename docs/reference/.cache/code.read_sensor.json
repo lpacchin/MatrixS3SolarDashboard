@@ -1,0 +1,13 @@
+{
+  "body_hash": "d36e0b71db7ea021",
+  "llm": {
+    "purpose": "Interroga l'API Home Assistant per leggere lo stato di un sensore e restituisce valore formattato e unità di misura (KW o %) in base ai flag.",
+    "input_shape": "eid: stringa identificativa del sensore (obbligatoria). wh: booleano, se True divide per 1000. pct: booleano, se True indica percentuale. one_decimal: booleano, se True forza una cifra decimale. Dipende da variabili globali HA_URL e HA_TOKEN.",
+    "output_shape": "Tupla (disp, suf): disp è stringa del valore formattato, suf è 'KW' o '%'. In caso di errore HTTP o eccezione restituisce ('?', ''). Scrive anche su stdout tramite print.",
+    "gotcha": "Utilizza variabili globali HA_URL e HA_TOKEN non validate; in caso di qualsiasi eccezione richiama reset_wifi() (effetto collaterale non tracciato nei segnali); la divisione per 1000 con wh=True può perdere precisione; non gestisce la mancanza delle variabili globali.",
+    "side_effects": [
+      "network"
+    ]
+  },
+  "generated_at": "2026-07-21T18:29:39.091790+00:00"
+}

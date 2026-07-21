@@ -1,0 +1,30 @@
+{
+  "evidence_hash": "5fa0b2814a96bb84",
+  "llm": {
+    "what": "Il progetto fornisce utilità per la gestione della connettività WiFi (connessione con retry e reset hardware/software), la lettura di sensori da Home Assistant con formattazione del valore e unità, e l'azzeramento di indici testuali in una mappa dati.",
+    "areas": [
+      {
+        "name": "Connettività WiFi",
+        "description": "Funzioni per tentare la connessione a una rete WiFi specifica con timeout e per forzare il ripristino della radio Wi-Fi tramite ciclo off/on e riconnessione.",
+        "modules": [
+          "code"
+        ]
+      },
+      {
+        "name": "Interrogazione Sensori",
+        "description": "Interroga l'API di Home Assistant per leggere lo stato di un sensore, restituendo valore e unità di misura (KW o %) in base a flag.",
+        "modules": [
+          "code"
+        ]
+      },
+      {
+        "name": "Cancellazione Indici",
+        "description": "Azzera il contenuto testuale di due indici per ogni entry di una mappa dati.",
+        "modules": [
+          "code"
+        ]
+      }
+    ]
+  },
+  "generated_at": "2026-07-21T18:30:00.162624+00:00"
+}

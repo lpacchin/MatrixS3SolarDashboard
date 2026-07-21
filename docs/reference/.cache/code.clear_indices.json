@@ -1,0 +1,11 @@
+{
+  "body_hash": "ad4b44a177133b98",
+  "llm": {
+    "purpose": "Azzera il testo su due indici per ogni entry della mappa.",
+    "input_shape": "idx_map: dict o mapping con valori iterabili contenenti esattamente due elementi (l, v).",
+    "output_shape": "None. Può sollevare ValueError se i valori non hanno due elementi.",
+    "gotcha": null,
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:28:50.588679+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "body_hash": "e578228af099e561",
+  "llm": {
+    "purpose": "Disabilita e riabilita la radio Wi-Fi (ciclo off/on) per forzarne il reset, quindi riconnette tramite connect_wifi.",
+    "input_shape": "Nessun parametro.",
+    "output_shape": "Ritorna il valore restituito da connect_wifi (tipicamente lo stato della connessione, es. booleano o stringa). Nessuna eccezione documentata.",
+    "gotcha": "Richiede che l'oggetto wifi.radio sia accessibile e time.sleep importato; eventuali eccezioni di connect_wifi non sono gestite.",
+    "side_effects": []
+  },
+  "generated_at": "2026-07-21T18:28:31.475385+00:00"
+}
